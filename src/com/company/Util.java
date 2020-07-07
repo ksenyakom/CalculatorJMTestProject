@@ -1,7 +1,7 @@
 package com.company;
 
 
-public class util {
+public class Util {
     public static Expression enterToExpression(String s) {
         String[] sNumbers = s.split("[-+*/]");
         int a, b;
