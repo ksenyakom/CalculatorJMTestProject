@@ -13,7 +13,7 @@ public class ConsoleReader {
             Expression expression = Util.enterToExpression(s);
             if (expression.getA()>10 || expression.getA()<1 ||
                     expression.getB()<1 || expression.getB()>10)
-                throw new RuntimeException("Ошибка: неверный ввод данных. Введенное числа меньше 1 или больше 10");
+                throw new RuntimeException("Ошибка: неверный ввод данных. Введенное число меньше 1 или больше 10");
             return expression;
         }
     }
